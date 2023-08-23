@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 outline: none;
+
 }
 body {
 background-color: #f9fafb;
@@ -19,14 +20,16 @@ border-radius: 5px;
 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 width: 400px;
 padding: 30px 40px;
+margin:50px 0;
 }
 .container h1 {
 text-align: center;
 margin: 0 0 20px;
 font-size: 24px;
+color: #031f6d;
 }
 .input {
-margin-bottom: 20px;
+margin-bottom: 10px;
 position: relative;
 }
 .input label {
@@ -69,4 +72,7 @@ button {
     color: #fff;
     display: block;
     font-size: 16px;
+}
+button:hover{
+    background-color: #031f6d;
 }
